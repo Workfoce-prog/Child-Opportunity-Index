@@ -9,7 +9,7 @@ st.set_page_config(page_title="Child Opportunity Index", layout="wide")
 st.title("Child Opportunity Index")
 st.caption("Division fit: Assistant Commissioner: Early Childhood")
 
-DATA_PATH = "data/sample_data.csv"
+DATA_PATH = "sample_data.csv"
 
 @st.cache_data
 def load_data():
